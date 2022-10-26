@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: aqua;
+}
+/*BANNER*/
+header{
+    background-color: rgb(27, 137, 137);
+}
+.bannerFoto{
+    width: 100vw;
+}
+/*NAV*/
+nav{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+.navegadorePrincipal{
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+/*MAIN*/
+main{
+    height: 400px;
+}
+/*FOOTER*/
+/*Section de fotos*/
+.fotos{
+    display: flex;
+}
+.fotoizq, .fotoderecha{
+    width: 50vw;  
+}
+
+.fotoderecha{
+    background-image: url(/imagenes/desktop/Animal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
