@@ -47,4 +47,10 @@ main{
     background-size: cover;
     background-position: center;
 }
-
+@font-face {
+    font-family: "mitipo";
+    src: url(font/helvetica.woff2) format('woff2');
+}
+body{
+    font-family: "mitipo", sans-serif;
+}
